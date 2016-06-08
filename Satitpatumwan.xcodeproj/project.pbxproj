@@ -1,0 +1,521 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8794300D1D07D7B4003E0710 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 8794300C1D07D7B4003E0710 /* main.m */; };
+		879430101D07D7B4003E0710 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 8794300F1D07D7B4003E0710 /* AppDelegate.m */; };
+		879430131D07D7B4003E0710 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 879430121D07D7B4003E0710 /* ViewController.m */; };
+		879430161D07D7B4003E0710 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 879430141D07D7B4003E0710 /* Main.storyboard */; };
+		879430181D07D7B4003E0710 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 879430171D07D7B4003E0710 /* Assets.xcassets */; };
+		8794301B1D07D7B4003E0710 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 879430191D07D7B4003E0710 /* LaunchScreen.storyboard */; };
+		879430261D07D7B4003E0710 /* SatitpatumwanTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 879430251D07D7B4003E0710 /* SatitpatumwanTests.m */; };
+		879430311D07D7B5003E0710 /* SatitpatumwanUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 879430301D07D7B5003E0710 /* SatitpatumwanUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		879430221D07D7B4003E0710 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 879430001D07D7B4003E0710 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 879430071D07D7B4003E0710;
+			remoteInfo = Satitpatumwan;
+		};
+		8794302D1D07D7B5003E0710 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 879430001D07D7B4003E0710 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 879430071D07D7B4003E0710;
+			remoteInfo = Satitpatumwan;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		879430081D07D7B4003E0710 /* Satitpatumwan.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Satitpatumwan.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		8794300C1D07D7B4003E0710 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		8794300E1D07D7B4003E0710 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		8794300F1D07D7B4003E0710 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		879430111D07D7B4003E0710 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		879430121D07D7B4003E0710 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		879430151D07D7B4003E0710 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		879430171D07D7B4003E0710 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		8794301A1D07D7B4003E0710 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		8794301C1D07D7B4003E0710 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		879430211D07D7B4003E0710 /* SatitpatumwanTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SatitpatumwanTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		879430251D07D7B4003E0710 /* SatitpatumwanTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SatitpatumwanTests.m; sourceTree = "<group>"; };
+		879430271D07D7B5003E0710 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8794302C1D07D7B5003E0710 /* SatitpatumwanUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SatitpatumwanUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		879430301D07D7B5003E0710 /* SatitpatumwanUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SatitpatumwanUITests.m; sourceTree = "<group>"; };
+		879430321D07D7B5003E0710 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		879430051D07D7B4003E0710 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8794301E1D07D7B4003E0710 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		879430291D07D7B5003E0710 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		87942FFF1D07D7B4003E0710 = {
+			isa = PBXGroup;
+			children = (
+				8794300A1D07D7B4003E0710 /* Satitpatumwan */,
+				879430241D07D7B4003E0710 /* SatitpatumwanTests */,
+				8794302F1D07D7B5003E0710 /* SatitpatumwanUITests */,
+				879430091D07D7B4003E0710 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		879430091D07D7B4003E0710 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				879430081D07D7B4003E0710 /* Satitpatumwan.app */,
+				879430211D07D7B4003E0710 /* SatitpatumwanTests.xctest */,
+				8794302C1D07D7B5003E0710 /* SatitpatumwanUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8794300A1D07D7B4003E0710 /* Satitpatumwan */ = {
+			isa = PBXGroup;
+			children = (
+				8794300E1D07D7B4003E0710 /* AppDelegate.h */,
+				8794300F1D07D7B4003E0710 /* AppDelegate.m */,
+				879430111D07D7B4003E0710 /* ViewController.h */,
+				879430121D07D7B4003E0710 /* ViewController.m */,
+				879430141D07D7B4003E0710 /* Main.storyboard */,
+				879430171D07D7B4003E0710 /* Assets.xcassets */,
+				879430191D07D7B4003E0710 /* LaunchScreen.storyboard */,
+				8794301C1D07D7B4003E0710 /* Info.plist */,
+				8794300B1D07D7B4003E0710 /* Supporting Files */,
+			);
+			path = Satitpatumwan;
+			sourceTree = "<group>";
+		};
+		8794300B1D07D7B4003E0710 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				8794300C1D07D7B4003E0710 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		879430241D07D7B4003E0710 /* SatitpatumwanTests */ = {
+			isa = PBXGroup;
+			children = (
+				879430251D07D7B4003E0710 /* SatitpatumwanTests.m */,
+				879430271D07D7B5003E0710 /* Info.plist */,
+			);
+			path = SatitpatumwanTests;
+			sourceTree = "<group>";
+		};
+		8794302F1D07D7B5003E0710 /* SatitpatumwanUITests */ = {
+			isa = PBXGroup;
+			children = (
+				879430301D07D7B5003E0710 /* SatitpatumwanUITests.m */,
+				879430321D07D7B5003E0710 /* Info.plist */,
+			);
+			path = SatitpatumwanUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		879430071D07D7B4003E0710 /* Satitpatumwan */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 879430351D07D7B5003E0710 /* Build configuration list for PBXNativeTarget "Satitpatumwan" */;
+			buildPhases = (
+				879430041D07D7B4003E0710 /* Sources */,
+				879430051D07D7B4003E0710 /* Frameworks */,
+				879430061D07D7B4003E0710 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Satitpatumwan;
+			productName = Satitpatumwan;
+			productReference = 879430081D07D7B4003E0710 /* Satitpatumwan.app */;
+			productType = "com.apple.product-type.application";
+		};
+		879430201D07D7B4003E0710 /* SatitpatumwanTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 879430381D07D7B5003E0710 /* Build configuration list for PBXNativeTarget "SatitpatumwanTests" */;
+			buildPhases = (
+				8794301D1D07D7B4003E0710 /* Sources */,
+				8794301E1D07D7B4003E0710 /* Frameworks */,
+				8794301F1D07D7B4003E0710 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				879430231D07D7B4003E0710 /* PBXTargetDependency */,
+			);
+			name = SatitpatumwanTests;
+			productName = SatitpatumwanTests;
+			productReference = 879430211D07D7B4003E0710 /* SatitpatumwanTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		8794302B1D07D7B5003E0710 /* SatitpatumwanUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8794303B1D07D7B5003E0710 /* Build configuration list for PBXNativeTarget "SatitpatumwanUITests" */;
+			buildPhases = (
+				879430281D07D7B5003E0710 /* Sources */,
+				879430291D07D7B5003E0710 /* Frameworks */,
+				8794302A1D07D7B5003E0710 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8794302E1D07D7B5003E0710 /* PBXTargetDependency */,
+			);
+			name = SatitpatumwanUITests;
+			productName = SatitpatumwanUITests;
+			productReference = 8794302C1D07D7B5003E0710 /* SatitpatumwanUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		879430001D07D7B4003E0710 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = satitpatumwan.ac.th;
+				TargetAttributes = {
+					879430071D07D7B4003E0710 = {
+						CreatedOnToolsVersion = 7.3;
+					};
+					879430201D07D7B4003E0710 = {
+						CreatedOnToolsVersion = 7.3;
+						TestTargetID = 879430071D07D7B4003E0710;
+					};
+					8794302B1D07D7B5003E0710 = {
+						CreatedOnToolsVersion = 7.3;
+						TestTargetID = 879430071D07D7B4003E0710;
+					};
+				};
+			};
+			buildConfigurationList = 879430031D07D7B4003E0710 /* Build configuration list for PBXProject "Satitpatumwan" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 87942FFF1D07D7B4003E0710;
+			productRefGroup = 879430091D07D7B4003E0710 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				879430071D07D7B4003E0710 /* Satitpatumwan */,
+				879430201D07D7B4003E0710 /* SatitpatumwanTests */,
+				8794302B1D07D7B5003E0710 /* SatitpatumwanUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		879430061D07D7B4003E0710 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8794301B1D07D7B4003E0710 /* LaunchScreen.storyboard in Resources */,
+				879430181D07D7B4003E0710 /* Assets.xcassets in Resources */,
+				879430161D07D7B4003E0710 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8794301F1D07D7B4003E0710 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8794302A1D07D7B5003E0710 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		879430041D07D7B4003E0710 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				879430131D07D7B4003E0710 /* ViewController.m in Sources */,
+				879430101D07D7B4003E0710 /* AppDelegate.m in Sources */,
+				8794300D1D07D7B4003E0710 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8794301D1D07D7B4003E0710 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				879430261D07D7B4003E0710 /* SatitpatumwanTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		879430281D07D7B5003E0710 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				879430311D07D7B5003E0710 /* SatitpatumwanUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		879430231D07D7B4003E0710 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 879430071D07D7B4003E0710 /* Satitpatumwan */;
+			targetProxy = 879430221D07D7B4003E0710 /* PBXContainerItemProxy */;
+		};
+		8794302E1D07D7B5003E0710 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 879430071D07D7B4003E0710 /* Satitpatumwan */;
+			targetProxy = 8794302D1D07D7B5003E0710 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		879430141D07D7B4003E0710 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				879430151D07D7B4003E0710 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		879430191D07D7B4003E0710 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8794301A1D07D7B4003E0710 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		879430331D07D7B5003E0710 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		879430341D07D7B5003E0710 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		879430361D07D7B5003E0710 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Satitpatumwan/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = satitpatumwan.Satitpatumwan;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		879430371D07D7B5003E0710 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Satitpatumwan/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = satitpatumwan.Satitpatumwan;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		879430391D07D7B5003E0710 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = SatitpatumwanTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = satitpatumwan.SatitpatumwanTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Satitpatumwan.app/Satitpatumwan";
+			};
+			name = Debug;
+		};
+		8794303A1D07D7B5003E0710 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = SatitpatumwanTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = satitpatumwan.SatitpatumwanTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Satitpatumwan.app/Satitpatumwan";
+			};
+			name = Release;
+		};
+		8794303C1D07D7B5003E0710 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = SatitpatumwanUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = satitpatumwan.SatitpatumwanUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = Satitpatumwan;
+			};
+			name = Debug;
+		};
+		8794303D1D07D7B5003E0710 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = SatitpatumwanUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = satitpatumwan.SatitpatumwanUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = Satitpatumwan;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		879430031D07D7B4003E0710 /* Build configuration list for PBXProject "Satitpatumwan" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				879430331D07D7B5003E0710 /* Debug */,
+				879430341D07D7B5003E0710 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		879430351D07D7B5003E0710 /* Build configuration list for PBXNativeTarget "Satitpatumwan" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				879430361D07D7B5003E0710 /* Debug */,
+				879430371D07D7B5003E0710 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		879430381D07D7B5003E0710 /* Build configuration list for PBXNativeTarget "SatitpatumwanTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				879430391D07D7B5003E0710 /* Debug */,
+				8794303A1D07D7B5003E0710 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		8794303B1D07D7B5003E0710 /* Build configuration list for PBXNativeTarget "SatitpatumwanUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8794303C1D07D7B5003E0710 /* Debug */,
+				8794303D1D07D7B5003E0710 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 879430001D07D7B4003E0710 /* Project object */;
+}
