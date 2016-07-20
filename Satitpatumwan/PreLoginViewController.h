@@ -1,5 +1,5 @@
 //
-//  ViewController.h
+//  PreLoginViewController.h
 //  Satitpatumwan
 //
 //  Created by somkid simajarn on 6/8/2559 BE.
@@ -8,8 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UIViewController
-
+@interface PreLoginViewController : UIViewController
 
 @end
-
